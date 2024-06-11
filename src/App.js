@@ -5,16 +5,18 @@ import Saikat1 from './Enent_Binding/Saikat1';
 import FORM from './FORM/FORM.js';
 import FORM2 from './FORM/FORM2.js';
 import CHILD from './CHILD-LIFTING/CHILD';
+import Form3 from './Form3';
 
 function App() {
-  const data = "I am from parent (app)";
+  // const data = "I am from parent (app)";
   return (
     <div>
   {/* <Saikat/> */}
   {/* <Saikat1/> */}
    {/* <FORM /> */}
    {/* <FORM2 /> */}
-   <CHILD  data={data}/>
+   {/* <CHILD  data={data}/> */}
+   <Form3 />
     </div>
   );
 }
