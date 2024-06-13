@@ -6,6 +6,9 @@ import FORM from './FORM/FORM.js';
 import FORM2 from './FORM/FORM2.js';
 import CHILD from './CHILD-LIFTING/CHILD';
 import Form3 from './Form3';
+import Form4 from './Form4';
+import Toggle from './Toggle';
+import FAQs from './FAQs';
 
 function App() {
   // const data = "I am from parent (app)";
@@ -16,7 +19,11 @@ function App() {
    {/* <FORM /> */}
    {/* <FORM2 /> */}
    {/* <CHILD  data={data}/> */}
-   <Form3 />
+   {/* <Form3 /> */}
+   {/* <Form4 /> */}
+   {/* < Toggle /> */}
+   <FAQs />
+   
     </div>
   );
 }
