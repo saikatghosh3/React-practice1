@@ -9,6 +9,10 @@ import Form3 from './Form3';
 import Form4 from './Form4';
 import Toggle from './Toggle';
 import FAQs from './FAQs';
+import UseEffect from './UseEffect';
+import FormHandling from './FormHandling';
+import Conditionalren from './Conditionalren';
+import Hideandshow from './Hideandshow';
 
 function App() {
   // const data = "I am from parent (app)";
@@ -22,8 +26,12 @@ function App() {
    {/* <Form3 /> */}
    {/* <Form4 /> */}
    {/* < Toggle /> */}
-   <FAQs />
-   
+   {/* <FAQs /> */}
+   {/* < UseEffect /> */}
+   {/* <h2>Form Handling</h2>
+   <FormHandling /> */}
+   {/* <Conditionalren /> */}
+   < Hideandshow />
     </div>
   );
 }

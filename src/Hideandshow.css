@@ -1,0 +1,29 @@
+.status{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    background: greenyellow;
+    color: white;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    width: 70px ;
+    height: 70px;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: black;
+   
+}
+.btn:hover{
+    background-color: rgba(174, 51, 63, 0.304);
+    transform: scale(1);
+}
