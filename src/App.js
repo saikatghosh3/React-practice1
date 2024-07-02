@@ -13,6 +13,7 @@ import UseEffect from './UseEffect';
 import FormHandling from './FormHandling';
 import Conditionalren from './Conditionalren';
 import Hideandshow from './Hideandshow';
+import ComponentDidMount from './ComponentDidMount';
 
 function App() {
   // const data = "I am from parent (app)";
@@ -31,7 +32,8 @@ function App() {
    {/* <h2>Form Handling</h2>
    <FormHandling /> */}
    {/* <Conditionalren /> */}
-   < Hideandshow />
+   {/* < Hideandshow /> */}
+   <ComponentDidMount />
     </div>
   );
 }
