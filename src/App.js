@@ -14,6 +14,8 @@ import FormHandling from './FormHandling';
 import Conditionalren from './Conditionalren';
 import Hideandshow from './Hideandshow';
 import ComponentDidMount from './ComponentDidMount';
+import ComponentDidUpdate from './ComponentDidUpdate';
+import ShouldComponentUpdate from './ShouldComponentUpdate';
 
 function App() {
   // const data = "I am from parent (app)";
@@ -33,7 +35,9 @@ function App() {
    <FormHandling /> */}
    {/* <Conditionalren /> */}
    {/* < Hideandshow /> */}
-   <ComponentDidMount />
+   {/* <ComponentDidMount /> */}
+   {/* <ComponentDidUpdate /> */}
+   <ShouldComponentUpdate />
     </div>
   );
 }
