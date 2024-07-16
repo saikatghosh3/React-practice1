@@ -30,14 +30,14 @@ function App() {
    {/* <Form4 /> */}
    {/* < Toggle /> */}
    {/* <FAQs /> */}
-   {/* < UseEffect /> */}
+   < UseEffect />
    {/* <h2>Form Handling</h2>
    <FormHandling /> */}
    {/* <Conditionalren /> */}
    {/* < Hideandshow /> */}
    {/* <ComponentDidMount /> */}
    {/* <ComponentDidUpdate /> */}
-   <ShouldComponentUpdate />
+   {/* <ShouldComponentUpdate /> */}
     </div>
   );
 }

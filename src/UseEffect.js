@@ -1,18 +1,28 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import { useEffect, useState } from 'react'
 
 const UseEffect = () => {
-    const [count, setCount] = useState('0');
+// Example2
+ const [count, setCount] = useState(0); 
 
-    // useEffect(()=>{
-    //     // akta anonymus function must thaka lagbe. we can fetch data and update the dom with it.
-    //     console.log(useEffect);
-    // })
-   
+
+// Example 1
+useEffect(() =>{
+
+  // alert("UseEffect Hook!");
+  console.log("useEffect Hook")
+})
+
+
+
   return (
-    <div>
-        <h1>Count:{count}</h1>
-        <button onClick={()=>{setCount((count)=> count +1); }}>  + </button>
-       
+    <div className='useEffect'>
+
+    <h1>UseEffect Hook</h1>
+
+ {/* Example 2 */}
+    <h2> Count:{count}</h2>
+    <button onClick={()=>setCount(count + 1)}> Update Count</button>
     </div>
   )
 }
