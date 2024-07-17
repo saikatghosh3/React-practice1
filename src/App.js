@@ -16,6 +16,7 @@ import Hideandshow from './Hideandshow';
 import ComponentDidMount from './ComponentDidMount';
 import ComponentDidUpdate from './ComponentDidUpdate';
 import ShouldComponentUpdate from './ShouldComponentUpdate';
+import UseEffectwithcondition from './UseEffectwithcondition';
 
 function App() {
   // const data = "I am from parent (app)";
@@ -30,7 +31,7 @@ function App() {
    {/* <Form4 /> */}
    {/* < Toggle /> */}
    {/* <FAQs /> */}
-   < UseEffect />
+   {/* < UseEffect /> */}
    {/* <h2>Form Handling</h2>
    <FormHandling /> */}
    {/* <Conditionalren /> */}
@@ -38,6 +39,7 @@ function App() {
    {/* <ComponentDidMount /> */}
    {/* <ComponentDidUpdate /> */}
    {/* <ShouldComponentUpdate /> */}
+   <UseEffectwithcondition />
     </div>
   );
 }
