@@ -6,9 +6,14 @@ const UseEffectwithcondition = () => {
   const[total, setTotal] = useState(100);
 
   useEffect(()=>{
-    console.log("After render!!");
+    console.log("After count  render!!");
+  },[count]); // this is called dependency .
+
+  useEffect(()=>{
+    console.log("After total  render!!");
   },[total]);
 
+  // first time it will load the both but after that it will only load the clicked portion.
   return (
     <div className='new'>
       <h1>UseEffect with condition Hook</h1>

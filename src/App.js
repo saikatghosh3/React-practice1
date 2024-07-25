@@ -17,6 +17,7 @@ import ComponentDidMount from './ComponentDidMount';
 import ComponentDidUpdate from './ComponentDidUpdate';
 import ShouldComponentUpdate from './ShouldComponentUpdate';
 import UseEffectwithcondition from './UseEffectwithcondition';
+import Css from './css';
 
 function App() {
   // const data = "I am from parent (app)";
@@ -39,7 +40,8 @@ function App() {
    {/* <ComponentDidMount /> */}
    {/* <ComponentDidUpdate /> */}
    {/* <ShouldComponentUpdate /> */}
-   <UseEffectwithcondition />
+   {/* <UseEffectwithcondition /> */}
+   <Css />
     </div>
   );
 }
